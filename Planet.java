@@ -7,12 +7,12 @@ public class Planet extends Thread {
 
     // Getting random planet image path
     String planetPath = System.getProperty("user.dir")
-            + File.separator + "images"
+            + File.separator + "assets"
             + File.separator + (random.nextInt(10) + 1) + ".png";
 
     // Getting bomb image path
     String bombPath = System.getProperty("user.dir")
-            + File.separator + "images"
+            + File.separator + "assets"
             + File.separator + "bomb.gif";
 
     // Getting images and set current image to planetImage
